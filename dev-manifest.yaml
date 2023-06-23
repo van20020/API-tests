@@ -39,5 +39,5 @@ spec:
               scheme: HTTP
             failureThreshold: 30
             periodSeconds: 10
-            timeout seconds: 10
+            timeoutSeconds: 10
                 
