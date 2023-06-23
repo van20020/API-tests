@@ -14,7 +14,7 @@ metadata:
       spec:
         containers: 
           - name: chris-api
-            image: us-docker.pkg.dev/cit-262-team1-ez/chris-api/api-tests
+            image: gcr.io/cit-262-team1-ez/chris-api:latest
             ports:
               - containerPort: 3000
             resources:
