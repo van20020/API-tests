@@ -24,20 +24,20 @@ spec:
             requests:
               cpu: ".25"
               memory: "250Mi"
-            livenessProbe:
-              httpGet:
-                path: /
-                port: 3000
-                scheme: HTTP
-              failureThreshold: 1
-              periodSeconds: 10
-              timeoutSeconds: 10
-            startupProbe:
-              httpGet:
-                path: /
-                port: 3000
-                scheme: HTTP
-              failureThreshold: 30
-              periodSeconds: 10
-              timeout seconds: 10
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 3000
+              scheme: HTTP
+            failureThreshold: 1
+            periodSeconds: 10
+            timeoutSeconds: 10
+          startupProbe:
+            httpGet:
+              path: /
+              port: 3000
+              scheme: HTTP
+            failureThreshold: 30
+            periodSeconds: 10
+            timeout seconds: 10
                 
